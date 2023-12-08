@@ -1,5 +1,9 @@
 protobuf 版本为3.8.0
 
+--cpp_out=lite:<dir> 可支持proto生成cpp文件的时候，设置成lite模式
+
+列如:protoc --cpp_out=lite:proto base.proto
+
 构建安卓平台的protobuf
 
 ```shell

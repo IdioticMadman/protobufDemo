@@ -1,0 +1,13 @@
+package mmbizapp;
+message NewPackageData
+{
+  required bytes body = 1;
+  optional bytes data_ticket = 2;
+  optional bytes user_data_ticket = 3;
+  optional bytes openid = 4;
+}
+
+message Person{
+  optional string name = 1;
+  optional int32 age = 2;
+}
